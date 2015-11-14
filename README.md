@@ -20,7 +20,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Rack/Sinatra/Etc...
+
+Add this to your app.
+
+```ruby
+use Rack::Segment, key: 'YOUR_KEY'
+```
+
+### Rails
+
+Add this to your app's config files:
+
+```ruby
+config.middleware.use 'Rack::Segment', key: 'YOUR_KEY'
+```
 
 ## Development
 
