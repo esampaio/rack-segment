@@ -1,5 +1,5 @@
 module Rack
-  module Segment
-    VERSION = "0.1.0"
+  class Segment
+    VERSION = '1.0.0'
   end
 end

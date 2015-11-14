@@ -46,6 +46,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/esampaio/rack-segment.
 
+## Credits
+
+Heavily based on [onthebeach/rack_google_tag_manager](https://github.com/onthebeach/rack_google_tag_manager).
 
 ## License
 
